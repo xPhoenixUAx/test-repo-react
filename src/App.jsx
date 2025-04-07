@@ -12,8 +12,8 @@ const App = () => {
         <BookList books={favouriteBooks} />
       </>
       // src/components/App.jsx
-*/
-/*
+
+
 const alertStyles = {
   margin: 8,
   padding: "12px 16px",
@@ -32,6 +32,7 @@ export const App = () => {
   );
 };
 
+*/
 import Alert from "./components/BookList/Alert";
 
 export const App = () => {
@@ -52,9 +53,8 @@ export const App = () => {
     </>
   );
 };
-
 export default App;
-
+/*
 const App = () => {
   const handleClick = () => {
     alert("I'm a button!");
@@ -148,7 +148,7 @@ const App = () => {
 };
 export default App;
 */
-import { useState } from "react";
+/*import { useState } from "react";
 
 const ClickCounter = ({ value, onUpdate }) => {
   return <button onClick={onUpdate}>Current: {value}</button>;
@@ -170,3 +170,47 @@ const App = () => {
 };
 
 export default App;
+*/
+/*import MailCounter from "./components/Mail/MailCounter";
+
+const App = () => {
+  const username = "John";
+  const messages = [224, "5q35q3"];
+  return (
+    <div>
+      <MailCounter username={username} messages={messages} />
+    </div>
+  );
+};
+
+export default App;
+
+
+import BookList from "./components/BookList/BookList";
+import favouriteBooks from "./favoriteBooks.json";
+const App = () => {
+  return (
+    <>
+      <h1>Books of the week</h1>
+      <BookList books={favouriteBooks} />
+    </>
+  );
+};
+export default App;
+
+
+import Card from "./Card/Card";
+
+const App = () => {
+  return (
+    <div>
+      <Card>
+        <h1>Card title</h1>
+        <p>Text between opening and closing tag</p>
+      </Card>
+    </div>
+  );
+};
+
+export default App;
+*/
